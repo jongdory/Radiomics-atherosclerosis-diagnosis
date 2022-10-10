@@ -18,6 +18,8 @@ Reference: https://zenodo.org/record/6481870#.Y0JjZXZBzdk
 
 
 
+
+
 #### Requirements
 
 ---
@@ -25,6 +27,8 @@ Reference: https://zenodo.org/record/6481870#.Y0JjZXZBzdk
 ```shell
 pip install -r requirment.txt
 ```
+
+
 
 
 
@@ -42,6 +46,8 @@ The original data is stored in the /dataset directory. An MRI image converted to
 
 
 
+
+
 #### Radiomics feature extraction
 
 ---
@@ -53,6 +59,8 @@ python feature_extraction.py
 ```
 
 Extract features from images in the /data directory. The extracted radiomics features are stored in /feature directory.
+
+
 
 
 
@@ -70,6 +78,8 @@ Models that have been trained are saved in /train directory.
 
 
 
+
+
 #### Run inference
 
 ---
@@ -79,6 +89,8 @@ python predict.py
 ```
 
 Predict lesions for the patient's mri slice. Prediction results are stored in /results directory in json file format.
+
+
 
 
 
