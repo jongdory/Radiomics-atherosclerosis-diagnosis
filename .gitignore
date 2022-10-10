@@ -1,3 +1,5 @@
+__pycache__
+
 echo '!data/.gitkeep' >> .gitignore
 echo '!dataset/.gitkeep' >> .gitignore
 echo '!feature/.gitkeep' >> .gitignore
