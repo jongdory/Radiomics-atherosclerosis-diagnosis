@@ -1,0 +1,7 @@
+pyradiomics
+SimpleITK
+numpy
+scipy
+pandas
+scikit-learn
+xgboost
