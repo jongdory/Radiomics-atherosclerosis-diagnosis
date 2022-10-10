@@ -4,3 +4,9 @@ __pycache__
 /feature/*
 /results/*
 /saved_model/*
+
+echo '!data/.gitkeep' >> .gitignore
+echo '!dataset/.gitkeep' >> .gitignore
+echo '!feature/.gitkeep' >> .gitignore
+echo '!results/.gitkeep' >> .gitignore
+echo '!saved_model/.gitkeep' >> .gitignore
