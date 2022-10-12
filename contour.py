@@ -146,11 +146,11 @@ def save_contour(dcm_dir, array, case_i, save_dir):
     shape = array.shape
     mid = shape[2]//2
     
-    savedImg = sitk.GetImageFromArray(array)[mid:]
-    savedImg = sitk.GetImageFromArray(array)[:mid]
+    savedImgL = sitk.GetImageFromArray(array)[mid:]
+    savedImgR = sitk.GetImageFromArray(array)[:mid]
 
-    sitk.WriteImage(savedImg, f'{save_dir}/{case_i}L.nii.gz')
-    sitk.WriteImage(savedImg, f'{save_dir}/{case_i}R.nii.gz')
+    sitk.WriteImage(savedImgL, f'{save_dir}/{case_i}L.nii.gz')
+    sitk.WriteImage(savedImgR, f'{save_dir}/{case_i}R.nii.gz')
 
 def contour2nii(data_root, save_root):
     arteries = ['L', 'R']
